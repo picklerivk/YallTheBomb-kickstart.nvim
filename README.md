@@ -1,14 +1,32 @@
-# kickstart.nvim
+# YallTheBomb's kickstart.nvim Configuration
 
 ## Introduction
 
-A starting point for Neovim that is:
+This is a personal fork of [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) - a starting point for Neovim configuration that is:
 
 * Small
 * Single-file
 * Completely Documented
 
-**NOT** a Neovim distribution, but instead a starting point for your configuration.
+**NOTE**: This repository is specifically for Neovim configuration only. For other configuration files (dotfiles, shell configs, etc.), please create a separate dedicated repository.
+
+Original kickstart.nvim description: **NOT** a Neovim distribution, but instead a starting point for your configuration.
+
+## Repository Purpose and Scope
+
+This repository should contain **only** Neovim-related configuration files:
+- `init.lua` - Main Neovim configuration
+- `lua/` directory - Lua modules and plugins
+- Documentation specific to this Neovim setup
+
+### For Other Configuration Files
+
+If you need a repository for general configuration files (dotfiles), consider creating a separate repository such as:
+- `YallTheBomb-dotfiles` - for shell configs, git configs, etc.
+- `YallTheBomb-configs` - for application configurations
+- `YallTheBomb-dev-setup` - for development environment setup
+
+This keeps concerns separated and makes it easier to manage different types of configurations independently.
 
 ## Installation
 
@@ -65,16 +83,16 @@ You likely want to remove `lazy-lock.json` from your fork's `.gitignore` file
 too - it's ignored in the kickstart repo to make maintenance easier, but it's
 [recommended to track it in version control](https://lazy.folke.io/usage/lockfile).
 
-#### Clone kickstart.nvim
+#### Clone YallTheBomb's kickstart.nvim
 
 > [!NOTE]
-> If following the recommended step above (i.e., forking the repo), replace
-> `nvim-lua` with `<your_github_username>` in the commands below
+> This is YallTheBomb's personal kickstart.nvim configuration. 
+> To use this configuration, clone this repository instead of the original kickstart.nvim
 
 <details><summary> Linux and Mac </summary>
 
 ```sh
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/picklerivk/YallTheBomb-kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 </details>
@@ -84,13 +102,13 @@ git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HO
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "%localappdata%\nvim"
+git clone https://github.com/picklerivk/YallTheBomb-kickstart.nvim.git "%localappdata%\nvim"
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+git clone https://github.com/picklerivk/YallTheBomb-kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
 ```
 
 </details>

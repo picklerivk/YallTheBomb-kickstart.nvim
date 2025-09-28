@@ -1,0 +1,10 @@
+# Neovim Configuration Repository Marker
+# 
+# This file indicates that this repository is specifically for Neovim configuration.
+# Repository: YallTheBomb-kickstart.nvim
+# Purpose: Personal Neovim configuration based on kickstart.nvim
+# 
+# For other configuration files, create separate repositories:
+# - dotfiles repository for shell configs
+# - general configs repository for application settings
+# - development setup repository for dev environment

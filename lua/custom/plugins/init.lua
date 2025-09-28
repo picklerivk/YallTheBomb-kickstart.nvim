@@ -1,3 +1,10 @@
+-- YallTheBomb's Personal Neovim Plugin Configuration
+-- 
+-- This file is for adding personal Neovim plugins and customizations.
+-- This repository is specifically for Neovim configuration only.
+-- 
+-- For other configuration files (shell, git, etc.), create a separate repository.
+-- 
 -- You can add your own plugins here or in other files in this directory!
 --  I promise not to create any merge conflicts in this directory :)
 --
