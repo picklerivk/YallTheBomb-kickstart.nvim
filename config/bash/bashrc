@@ -1,0 +1,11 @@
+# Add your bash configuration here
+# This file would typically be sourced from ~/.bashrc or ~/.bash_profile
+
+# Example:
+# export EDITOR=nvim
+# export BROWSER=firefox
+# 
+# # Custom aliases
+# alias ll='ls -la'
+# alias la='ls -A'
+# alias l='ls -CF'

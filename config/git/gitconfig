@@ -1,0 +1,23 @@
+# Git global configuration
+# This file would typically be placed at ~/.gitconfig
+
+[user]
+    # name = Your Name
+    # email = your.email@example.com
+
+[core]
+    editor = nvim
+    autocrlf = input
+
+[push]
+    default = simple
+
+[pull]
+    rebase = false
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    cm = commit
+    lg = log --oneline --graph --decorate

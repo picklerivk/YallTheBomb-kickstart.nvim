@@ -1,7 +1,31 @@
-tags
-test.sh
-.luarc.json
-nvim
+# Temporary and backup files
+*~
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
 
-spell/
-lazy-lock.json
+# Editor specific
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup directories created by setup script
+.config-backup-*/
+
+# Neovim specific (moved to config/nvim)
+config/nvim/lazy-lock.json
+config/nvim/.luarc.json
+config/nvim/spell/
+
+# Application specific cache/data
+config/*/cache/
+config/*/logs/
+config/*/sessions/
+
+# Personal/sensitive files (add specific patterns as needed)
+config/git/gitconfig-local
+config/ssh/
+*.key
+*.pem
